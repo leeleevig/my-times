@@ -1,9 +1,32 @@
 header {
+  display: flex;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  border: 2px;
 }
 
-span {
+#mt {
   color: MediumAquamarine;
+}
+
+nav {
+  display: inline-flex;
+}
+
+.content {
+  display: flex;
+  border: 1px;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
 }
